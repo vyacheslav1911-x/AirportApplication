@@ -1,6 +1,9 @@
 #include <iostream>
+#include "StartWindow.h"
+
+using namespace std;
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    showWindow();
 }

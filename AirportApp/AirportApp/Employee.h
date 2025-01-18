@@ -90,6 +90,13 @@ public:
 	void printEmployeeInformation() const {
 		cout << "--- Employee Information ---" << endl;
 		cout << "Id: " << this->id << endl;
+		cout << "First name: " << this->firstName << endl;
+		cout << "Last name: " << this->lastName << endl;
+		cout << "Position: " << this->position << endl;
+		cout << "Age: " << this->age << endl;
+		cout << "Email: " << this->email << endl;
+		cout << "Phone number: " << this->phoneNumber << endl;
+		cout << "Salary: " << this->salary << endl;
 	}
 	void promote(const string& newPosition, double salaryIncrease) {
 		this->position = newPosition;

@@ -17,26 +17,7 @@ public:
 		const Plane& plane
 	);
 
-	void printFlightInfo() const {
-		cout << "Flight number: " << flightId << endl;
-
-		if (arrival.has_value()) {
-			cout << "Arrival: " << arrival.value() << endl;
-		}
-		else {
-			cout << "Arrival: Not available" << endl;
-		}
-
-		if (departure.has_value()) {
-			cout << "Departure: " << departure.value() << endl;
-		}
-		else {
-			cout << "Departure: Not available" << endl;
-		}
-
-		cout << "--- Plane Information ---" << endl;
-		plane.printPlaneInformation();
-	}
+	void printFlightInfo() const;
 	void addFlight(const string& databaseName, const string& user, const string& password) const;
 };
 

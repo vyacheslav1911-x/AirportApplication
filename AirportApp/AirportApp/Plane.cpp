@@ -1,6 +1,7 @@
 #include "Plane.h"
 
 Plane::Plane(
+    string id,
     string name,
     string modelName,
     string color,
@@ -10,7 +11,7 @@ Plane::Plane(
     int speed,
     optional<string> arrival,
     optional<string> departure
-) : name(name), modelName(modelName), color(color), type(type), places(places), availablePlaces(availablePlaces), speed(speed), arrival(arrival), departure(departure) {}
+) : id(id), name(name), modelName(modelName), color(color), type(type), places(places), availablePlaces(availablePlaces), speed(speed), arrival(arrival), departure(departure) {}
 
 void Plane::boardPassenger() {
     if (availablePlaces > 0) {
@@ -28,23 +29,13 @@ int Plane::getAvailablePlaces() {
 
 void Plane::printPlaneInformation() const {
     cout << "Plane Information:" << endl;
-    cout << "Name: " << name << endl;
-    cout << "Model Name: " << modelName << endl;
-    cout << "Color: " << color << endl;
-    cout << "Type: " << type << endl;
-    cout << "Total Places: " << places << endl;
-    cout << "Available Places: " << availablePlaces << endl;
-    if (arrival.has_value()) {
-        cout << "Arrival: " << arrival.value() << endl;
-    }
-    else {
-        cout << "Arrival: Not available" << endl;
-    }
-
-    if (departure.has_value()) {
-        cout << "Departure: " << *departure << endl;
-    }
-    else {
-        cout << "Departure: Not available" << endl;
-    }
+    cout << "Id: " << this->id << endl;
+    cout << "Name: " << this->name << endl;
+    cout << "Model Name: " << this->modelName << endl;
+    cout << "Color: " << this->color << endl;
+    cout << "Type: " << this->type << endl;
+    cout << "Total Places: " << this->places << endl;
+    cout << "Available Places: " << this->availablePlaces << endl;
+    cout << "Arrival: " << this->arrival.value_or("NULL") << endl;
+    cout << "Departure: " << this->departure.value_or("NULL") << endl;
 }
