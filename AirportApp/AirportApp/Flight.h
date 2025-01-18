@@ -37,5 +37,6 @@ public:
 		cout << "--- Plane Information ---" << endl;
 		plane.printPlaneInformation();
 	}
+	void addFlight(const string& databaseName, const string& user, const string& password) const;
 };
 
