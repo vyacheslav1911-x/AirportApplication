@@ -20,4 +20,3 @@ public:
 	void printFlightInfo() const;
 	void addFlight(const string& databaseName, const string& user, const string& password) const;
 };
-

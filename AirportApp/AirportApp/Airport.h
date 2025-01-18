@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
 #include "Flight.h"
+#include "Employee.h"
 
 using namespace std;
 
@@ -14,6 +15,7 @@ private:
 	bool isForInternationalFlights;
 	Flight* flights;
 	Plane* planes;
+	Employee* employees;
 
 public:
 	Airport(
@@ -32,5 +34,16 @@ public:
 		this->parkingLots = parkingLots;
 	}
 
+	// getters
+	string getId() const {
+		return this->id;
+	}
 
+	string getName() const {
+		return this->name;
+	}
+
+	string getParkingLots() const {
+		return this->parkingLots;
+	}
 };

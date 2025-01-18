@@ -10,6 +10,7 @@ void viewEmployees();
 void addFlight();
 void addPlane();
 void sellTicket();
+void addEmployee();
 
 void showMenu();
 
@@ -40,6 +41,9 @@ void showWindow() {
         case 6:
             sellTicket();
             break;
+        case 7:
+            addEmployee();
+            break;
         case 0:
             std::cout << "Exiting program. Goodbye!\n";
             break;
@@ -59,12 +63,14 @@ void showMenu() {
     std::cout << "4. Add Flight" << endl;
     std::cout << "5. Add Plane" << endl;
     std::cout << "6. Sell Ticket" << endl;
-    std::cout << "0. Exit\n";
+    std::cout << "7. Add Employee" << endl;
+    std::cout << "0. Exit" << endl;
     std::cout << "========================================" << endl;
 }
 
 void viewPlanes() {
     cout << "Viewing all planes..." << endl;
+
 }
 
 void viewFlights() {
@@ -88,4 +94,8 @@ void addPlane() {
 
 void sellTicket() {
     std::cout << "Sell ticket for passenger..." << endl;
+}
+
+void addEmployee() {
+
 }
