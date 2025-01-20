@@ -147,6 +147,7 @@
     <ClCompile Include="AirportApp.cpp" />
     <ClCompile Include="Employee.cpp" />
     <ClCompile Include="Flight.cpp" />
+    <ClCompile Include="FormatDate.cpp" />
     <ClCompile Include="Plane.cpp" />
     <ClCompile Include="StartWindow.cpp" />
   </ItemGroup>
@@ -154,6 +155,7 @@
     <ClInclude Include="Airport.h" />
     <ClInclude Include="Employee.h" />
     <ClInclude Include="Flight.h" />
+    <ClInclude Include="FormatDate.h" />
     <ClInclude Include="Plane.h" />
     <ClInclude Include="StartWindow.h" />
   </ItemGroup>

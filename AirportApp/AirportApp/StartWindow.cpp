@@ -1,6 +1,12 @@
 ﻿#include <iostream>
 #include <string>
+#include <vector>
 #include "StartWindow.h"
+#include <cppconn/driver.h>
+#include <cppconn/connection.h>
+#include <cppconn/statement.h>
+#include <cppconn/resultset.h>
+#include "Plane.h"
 
 using namespace std;
 
@@ -79,7 +85,7 @@ void viewFlights() {
 
 void viewEmployees() {
     std::cout << "Viewing all employees..." << endl;
-    // Реалізуйте логіку перегляду співробітників (зчитування з бази даних, вивід у консоль)
+    
 }
 
 void addFlight() {
@@ -98,4 +104,23 @@ void sellTicket() {
 
 void addEmployee() {
 
+}
+
+std::vector<Plane> getPlanesFromDatabase(const std::string& host, const std::string& user, const std::string& password, const std::string& database) {
+    std::vector<Plane> planes;
+
+    try {
+        sql::Driver* driver = get_driver_instance();
+        std::unique_ptr<sql::Connection> conn(driver->connect(host, user, password));
+
+        conn->setSchema(database);
+        std::unique_ptr<sql::Statement> stmt(conn->createStatement());
+        std::unique_ptr<sql::ResultSet> res(stmt->executeQuery("SELECT id, name, modelName, color, type, places, availablePlaces, speed, arrival, departure FROM planes"));
+
+        while (res->next()) {
+            Plane plane;
+            res->getString("id");
+
+        }
+    }
 }

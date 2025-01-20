@@ -18,15 +18,15 @@ protected:
 
 public:
 	Employee(
-		string id,
-		string firstName,
-		string lastName,
-		string position,
-		int age,
-		string email,
-		string phoneNumber,
-		double salary
-		);
+		const std::string& id,
+		const std::string& firstName,
+		const std::string& lastName,
+		const std::string& position,
+		const int& age,
+		const std::string& email,
+		const std::string& phoneNumber,
+		const double& salary
+	);
 
 	// setters
 	void setFirstName(const string& firstName) {
@@ -102,8 +102,9 @@ public:
 		this->position = newPosition;
 		this->salary = salaryIncrease;
 	}
+
 	double calculateAnnualSalary() const {
-		return salary * 12;
+		return this->salary * 12;
 	}
 };
 
