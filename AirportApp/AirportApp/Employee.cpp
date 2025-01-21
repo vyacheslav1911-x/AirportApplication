@@ -10,12 +10,11 @@ Employee::Employee(
 	const std::string& email,
 	const std::string& phoneNumber,
 	const double& salary
-) : id(id),
-firstName(firstName),
-lastName(lastName),
-position(position),
-age(age),
-email(email),
-phoneNumber(phoneNumber),
-salary(salary) {
-}
+) : id(id), 
+	firstName(firstName), 
+	lastName(lastName), 
+	position(position), 
+	age(age),
+	email(email),
+	phoneNumber(phoneNumber),
+	salary(salary) {}

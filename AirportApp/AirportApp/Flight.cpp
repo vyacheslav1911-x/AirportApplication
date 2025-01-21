@@ -21,7 +21,7 @@ void Flight::printFlightInfo(int id) const {
 	plane.printPlaneInformation();
 };
 
-void Flight::addFlight(const string& databaseName, const string& user, const string& password, const Plane& plane) const {
+void Flight::addFlight(const string& databaseName, const string&user, const string& password) const{
 	try
 	{
 		sql::mysql::MySQL_Driver* driver = sql::mysql::get_mysql_driver_instance();
