@@ -1,2 +1,34 @@
-﻿  StartWindow.cpp
-  AirportApp.vcxproj -> C:\AirportViacheslav\AirportApp\x64\Debug\AirportApp.exe
+﻿  Airport.cpp
+C:\Proj2\AirPort\AirportApplication\AirportApp\AirportApp\Plane.h(109,9): error C2535: 'int Plane::getAvailablePlaces(void)': member function already defined or declared
+  (compiling source file 'Airport.cpp')
+      C:\Proj2\AirPort\AirportApplication\AirportApp\AirportApp\Plane.h(39,9):
+      see declaration of 'Plane::getAvailablePlaces'
+  
+  AirportApp.cpp
+  Employee.cpp
+  Flight.cpp
+C:\Proj2\AirPort\AirportApplication\AirportApp\AirportApp\Plane.h(109,9): error C2535: 'int Plane::getAvailablePlaces(void)': member function already defined or declared
+  (compiling source file 'Flight.cpp')
+      C:\Proj2\AirPort\AirportApplication\AirportApp\AirportApp\Plane.h(39,9):
+      see declaration of 'Plane::getAvailablePlaces'
+  
+  FormatDate.cpp
+  Plane.cpp
+C:\Proj2\AirPort\AirportApplication\AirportApp\AirportApp\Plane.h(109,9): error C2535: 'int Plane::getAvailablePlaces(void)': member function already defined or declared
+  (compiling source file 'Plane.cpp')
+      C:\Proj2\AirPort\AirportApplication\AirportApp\AirportApp\Plane.h(39,9):
+      see declaration of 'Plane::getAvailablePlaces'
+  
+  StartWindow.cpp
+C:\Proj2\AirPort\AirportApplication\AirportApp\AirportApp\StartWindow.cpp(1,4): error C2014: preprocessor command must start as first nonwhite space
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\sal.h(2361,1): error C2144: syntax error: 'int' should be preceded by ';'
+  (compiling source file 'StartWindow.cpp')
+  
+C:\Proj2\AirPort\AirportApplication\AirportApp\AirportApp\StartWindow.cpp(1,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Proj2\AirPort\AirportApplication\AirportApp\AirportApp\Plane.h(109,9): error C2535: 'int Plane::getAvailablePlaces(void)': member function already defined or declared
+  (compiling source file 'StartWindow.cpp')
+      C:\Proj2\AirPort\AirportApplication\AirportApp\AirportApp\Plane.h(39,9):
+      see declaration of 'Plane::getAvailablePlaces'
+  
+C:\Proj2\AirPort\AirportApplication\AirportApp\AirportApp\StartWindow.cpp(112,5): error C2317: 'try' block starting on line '112' has no catch handlers
+  Generating Code...
