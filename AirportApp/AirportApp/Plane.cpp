@@ -35,10 +35,6 @@ void Plane::boardPassenger() {
     }
 }
 
-int Plane::getAvailablePlaces() {
-    return availablePlaces;
-}
-
 void Plane::printPlaneInformation() const {
     cout << "--- Plane Information --- " << endl;
     cout << "Id: " << this->id << endl;

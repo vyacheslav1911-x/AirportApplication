@@ -15,8 +15,6 @@ private:
 	string name;
 	int parkingLots;
 	bool isForInternationalFlights;
-	optional<std::vector<Flight>> flights;
-	optional<std::vector<Plane>> planes;
 	Employee* employees;
 
 public:
@@ -27,10 +25,21 @@ public:
 		const bool& isForInternationalFlights,
 		const optional<std::vector<Flight>>& flights,
 		const optional<std::vector<Plane>>& planes,
-		Employee*& employees
+		Employee* employees
 	);
+	optional<std::vector<Flight>> flights;
+	optional<std::vector<Plane>> planes;
 
-	void createPlain(const Plane& plane);
+
+	void createPlain(const Plane& plane) {
+		if (!planes.has_value()) {
+			planes = std::vector<Plane>();
+		}
+
+		planes->push_back(plane);
+	}
+
+	void printPlanes() const;
 
 	// setters
 	void setName(const string& name) {

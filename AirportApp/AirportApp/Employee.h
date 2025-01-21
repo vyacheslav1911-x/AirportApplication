@@ -17,6 +17,7 @@ protected:
 	double salary;
 
 public:
+	Employee();
 	Employee(
 		const std::string& id,
 		const std::string& firstName,
@@ -29,6 +30,10 @@ public:
 	);
 
 	// setters
+	void setId(const string& id) {
+		this->id = id;
+	}
+
 	void setFirstName(const string& firstName) {
 		this->firstName = firstName;
 	}

@@ -36,7 +36,6 @@ public:
         const optional<std::chrono::system_clock::time_point>& departure);
     void boardPassenger();
     void printPlaneInformation() const;
-    int getAvailablePlaces();
 
     void setId(const string& id) {
         this->id = id;
@@ -82,43 +81,47 @@ public:
         this->departure = departure;
     }
 
-    string getId() {
+    string getId() const {
         return this->id;
     }
 
-    string getName() {
+    string getName() const {
         return this->name;
     }
 
-    string getModelName() {
+    string getModelName() const {
         return this->modelName;
     }
 
-    string getColor() {
+    string getColor() const {
         return this->color;
     }
 
-    string getType() {
+    string getType() const {
         return this->type;
     }
 
-    int getPlaces() {
+    int getPlaces() const {
         return this->places;
     }
 
-    int getAvailablePlaces() {
+    int getAvailablePlaces() const {
         return this->availablePlaces;
     }
 
-    int getSpeed() {
+    int getSpeed() const {
         return this->speed;
     }
 
-    optional<std::chrono::system_clock::time_point> getArrival() {
+    bool getIsAvailable() const {
+        return this->isAvailable;
+    }
+
+    optional<std::chrono::system_clock::time_point> getArrival() const {
         return this->arrival;
     }
 
-    optional<std::chrono::system_clock::time_point> getDeparture() {
+    optional<std::chrono::system_clock::time_point> getDeparture() const {
         return this->departure;
     }
 };

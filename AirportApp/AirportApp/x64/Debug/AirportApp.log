@@ -1,34 +1,19 @@
 ﻿  Airport.cpp
-C:\Proj2\AirPort\AirportApplication\AirportApp\AirportApp\Plane.h(109,9): error C2535: 'int Plane::getAvailablePlaces(void)': member function already defined or declared
-  (compiling source file 'Airport.cpp')
-      C:\Proj2\AirPort\AirportApplication\AirportApp\AirportApp\Plane.h(39,9):
-      see declaration of 'Plane::getAvailablePlaces'
-  
   AirportApp.cpp
+C:\AirportViacheslav\AirportApp\AirportApp\AirportApp.cpp(4,7): error C2143: syntax error: missing ';' before 'using namespace'
   Employee.cpp
   Flight.cpp
-C:\Proj2\AirPort\AirportApplication\AirportApp\AirportApp\Plane.h(109,9): error C2535: 'int Plane::getAvailablePlaces(void)': member function already defined or declared
-  (compiling source file 'Flight.cpp')
-      C:\Proj2\AirPort\AirportApplication\AirportApp\AirportApp\Plane.h(39,9):
-      see declaration of 'Plane::getAvailablePlaces'
-  
   FormatDate.cpp
+C:\AirportViacheslav\AirportApp\AirportApp\FormatDate.cpp(23,31): error C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   Plane.cpp
-C:\Proj2\AirPort\AirportApplication\AirportApp\AirportApp\Plane.h(109,9): error C2535: 'int Plane::getAvailablePlaces(void)': member function already defined or declared
-  (compiling source file 'Plane.cpp')
-      C:\Proj2\AirPort\AirportApplication\AirportApp\AirportApp\Plane.h(39,9):
-      see declaration of 'Plane::getAvailablePlaces'
-  
   StartWindow.cpp
-C:\Proj2\AirPort\AirportApplication\AirportApp\AirportApp\StartWindow.cpp(1,4): error C2014: preprocessor command must start as first nonwhite space
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\sal.h(2361,1): error C2144: syntax error: 'int' should be preceded by ';'
-  (compiling source file 'StartWindow.cpp')
-  
-C:\Proj2\AirPort\AirportApplication\AirportApp\AirportApp\StartWindow.cpp(1,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-C:\Proj2\AirPort\AirportApplication\AirportApp\AirportApp\Plane.h(109,9): error C2535: 'int Plane::getAvailablePlaces(void)': member function already defined or declared
-  (compiling source file 'StartWindow.cpp')
-      C:\Proj2\AirPort\AirportApplication\AirportApp\AirportApp\Plane.h(39,9):
-      see declaration of 'Plane::getAvailablePlaces'
-  
-C:\Proj2\AirPort\AirportApplication\AirportApp\AirportApp\StartWindow.cpp(112,5): error C2317: 'try' block starting on line '112' has no catch handlers
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xnode_handle.h(23,1): error C2143: syntax error: missing ';' before 'namespace'
+C:\AirportViacheslav\AirportApp\AirportApp\StartWindow.cpp(94,5): error C2660: 'getFlightsFromDatabase': function does not take 4 arguments
+C:\AirportViacheslav\AirportApp\AirportApp\StartWindow.h(19,21): message : see declaration of 'getFlightsFromDatabase'
+C:\AirportViacheslav\AirportApp\AirportApp\StartWindow.cpp(94,5): message : while trying to match the argument list '(const std::string, const std::string, const std::string, const std::string)'
+C:\AirportViacheslav\AirportApp\AirportApp\StartWindow.cpp(99,5): error C3861: 'getEmployeesFromDatabase': identifier not found
+C:\AirportViacheslav\AirportApp\AirportApp\StartWindow.cpp(104,5): error C3861: 'addFlightInDatabase': identifier not found
+C:\AirportViacheslav\AirportApp\AirportApp\StartWindow.cpp(109,5): error C3861: 'addPlaneInDatabase': identifier not found
+C:\AirportViacheslav\AirportApp\AirportApp\StartWindow.cpp(114,5): error C3861: 'sellPassengerTicket': identifier not found
+C:\AirportViacheslav\AirportApp\AirportApp\StartWindow.cpp(119,5): error C3861: 'addEmployeeInDatabase': identifier not found
   Generating Code...
