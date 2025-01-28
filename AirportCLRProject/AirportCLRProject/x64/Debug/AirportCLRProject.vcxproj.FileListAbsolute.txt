@@ -1,0 +1,3 @@
+C:\AirportViacheslav\AirportCLRProject\AirportCLRProject\x64\Debug\AirportCLRProject.vcxproj.AssemblyReference.cache
+C:\AirportViacheslav\AirportCLRProject\AirportCLRProject\x64\Debug\AirportCLRProject.MyForm.resources
+C:\AirportViacheslav\AirportCLRProject\AirportCLRProject\x64\Debug\AirportCLRProject.vcxproj.GenerateResource.cache

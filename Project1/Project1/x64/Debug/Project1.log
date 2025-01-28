@@ -1,0 +1,41 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (Project1.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Airport.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\optional(12): warning STL4038: The contents of <optional> are available only with C++17 or later.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\servprov.h(99,64): error C3699: '*': cannot use this indirection on type 'IServiceProvider'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\servprov.h(99,64): message : compiler replacing '*' with '^' to continue parsing
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\servprov.h(106,9): error C2371: 'IServiceProvider': redefinition; different basic types
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\servprov.h(52,36): message : see declaration of 'IServiceProvider'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\servprov.h(123,43): error C3699: '*': cannot use this indirection on type 'IServiceProvider'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\servprov.h(123,43): message : compiler replacing '*' with '^' to continue parsing
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\servprov.h(251,24): error C3699: '*': cannot use this indirection on type 'IServiceProvider'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\servprov.h(251,24): message : compiler replacing '*' with '^' to continue parsing
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\servprov.h(261,34): error C3699: '*': cannot use this indirection on type 'IServiceProvider'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\servprov.h(261,34): message : compiler replacing '*' with '^' to continue parsing
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\urlmon.h(7156,67): error C3699: '*': cannot use this indirection on type 'IServiceProvider'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\urlmon.h(7156,67): message : compiler replacing '*' with '^' to continue parsing
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\urlmon.h(7158,63): error C3699: '*': cannot use this indirection on type 'IServiceProvider'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\urlmon.h(7158,63): message : compiler replacing '*' with '^' to continue parsing
+C:\AirportViacheslav\Project1\Project1\Plane.h(101,10): error C2535: 'System::String ^Plane::GetArrivalString(void)': member function already defined or declared
+C:\AirportViacheslav\Project1\Project1\Plane.h(78,10): message : see declaration of 'Plane::GetArrivalString'
+C:\AirportViacheslav\Project1\Project1\Plane.h(105,10): error C2535: 'System::String ^Plane::GetDepartureString(void)': member function already defined or declared
+C:\AirportViacheslav\Project1\Project1\Plane.h(83,10): message : see declaration of 'Plane::GetDepartureString'
+  Employee.cpp
+  Flight.cpp
+  FlightListForm.cpp
+  MainForm.cpp
+  Passenger.cpp
+  Plane.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\optional(12): warning STL4038: The contents of <optional> are available only with C++17 or later.
+C:\AirportViacheslav\Project1\Project1\Plane.h(101,10): error C2535: 'System::String ^Plane::GetArrivalString(void)': member function already defined or declared
+C:\AirportViacheslav\Project1\Project1\Plane.h(78,10): message : see declaration of 'Plane::GetArrivalString'
+C:\AirportViacheslav\Project1\Project1\Plane.h(105,10): error C2535: 'System::String ^Plane::GetDepartureString(void)': member function already defined or declared
+C:\AirportViacheslav\Project1\Project1\Plane.h(83,10): message : see declaration of 'Plane::GetDepartureString'
+  StartPoint.cpp
+  Ticket.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\optional(12): warning STL4038: The contents of <optional> are available only with C++17 or later.
+C:\AirportViacheslav\Project1\Project1\Plane.h(101,10): error C2535: 'System::String ^Plane::GetArrivalString(void)': member function already defined or declared
+C:\AirportViacheslav\Project1\Project1\Plane.h(78,10): message : see declaration of 'Plane::GetArrivalString'
+C:\AirportViacheslav\Project1\Project1\Plane.h(105,10): error C2535: 'System::String ^Plane::GetDepartureString(void)': member function already defined or declared
+C:\AirportViacheslav\Project1\Project1\Plane.h(83,10): message : see declaration of 'Plane::GetDepartureString'
+  .NETFramework,Version=v4.7.2.AssemblyAttributes.cpp
+  Generating Code...
